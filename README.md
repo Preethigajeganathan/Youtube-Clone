@@ -37,9 +37,7 @@ This project recreates the core YouTube browsing experience by allowing users to
 # 🚀 Demo
 
 
-```
 Live Demo: https://youtube-clone-bay-chi.vercel.app/
-```
 
 ---
 
