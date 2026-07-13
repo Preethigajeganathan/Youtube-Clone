@@ -66,34 +66,59 @@ Live Demo: https://your-demo-link.com
 # 📂 Project Structure
 
 ```
-youtube-clone/
+Youtube-Clone
 │
-├── public/
+├── public
+│   ├── favicon.svg
+│   └── icons.svg
 │
-├── src/
+├── src
 │   │
-│   ├── assets/
+│   ├── assets
+│   │   ├── images and icons
 │   │
-│   ├── Components/
+│   ├── Components
 │   │   │
-│   │   ├── Feed/
+│   │   ├── Error
+│   │   │   ├── Error.jsx
+│   │   │   └── Error.css
+│   │   │
+│   │   ├── Feed
 │   │   │   ├── Feed.jsx
 │   │   │   └── Feed.css
 │   │   │
-│   │   ├── PlayVideo/
+│   │   ├── Navbar
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Navbar.css
+│   │   │
+│   │   ├── PlayVideo
 │   │   │   ├── PlayVideo.jsx
 │   │   │   └── PlayVideo.css
 │   │   │
-│   │   ├── Recommended/
+│   │   ├── Recommended
 │   │   │   ├── Recommended.jsx
 │   │   │   └── Recommended.css
+│   │   │
+│   │   └── Sidebar
+│   │       ├── Sidebar.jsx
+│   │       └── Sidebar.css
 │   │
-│   ├── Data.js
+│   ├── Pages
+│   │   ├── Home
+│   │   │   ├── Home.jsx
+│   │   │   └── Home.css
+│   │   │
+│   │   └── Video
+│   │       ├── Video.jsx
+│   │       └── Video.css
+│   │
 │   ├── App.jsx
+│   ├── Data.js
+│   ├── index.css
 │   └── main.jsx
 │
 ├── package.json
-├── package-lock.json
+├── vite.config.js
 └── README.md
 ```
 
@@ -104,13 +129,13 @@ youtube-clone/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/youtube-clone.git
+git clone https://github.com/Preethigajeganathan/Youtube-Clone.git
 ```
 
 ## 2. Navigate to Project Folder
 
 ```bash
-cd youtube-clone
+cd Youtube-Clone
 ```
 
 ## 3. Install Dependencies
@@ -282,49 +307,21 @@ Display Complete Video Page
 
 ---
 
-# 📸 Screenshots
+# 🎯 Main Components
 
-Add screenshots of your project here.
+## Feed
+- Fetches and displays popular videos.
+- Provides navigation to video pages.
 
-Example:
+## PlayVideo
+- Plays selected videos.
+- Displays video details, channel information, description, and comments.
 
-```
-/screenshots
-    ├── home.png
-    ├── video-page.png
-    └── mobile-view.png
-```
+## Recommended
+- Shows related videos for better discovery.
 
----
-
-# 🎯 Key Components
-
-## Feed Component
-
-Responsible for:
-
-- Fetching popular videos
-- Displaying video cards
-- Navigation to video pages
-
-
-## PlayVideo Component
-
-Responsible for:
-
-- Playing selected videos
-- Showing video statistics
-- Displaying channel details
-- Showing descriptions
-- Loading comments
-
-
-## Recommended Component
-
-Responsible for:
-
-- Showing related videos
-- Helping users discover more content
+## Navbar & Sidebar
+- Provides YouTube-style navigation.
 
 ---
 
@@ -407,12 +404,12 @@ This project is created for educational purposes.
 
 # 👨‍💻 Author
 
-**Your Name**
+Preethiga 
 
 GitHub:
 
 ```
-https://github.com/your-username
+https://github.com/Preethigajeganathan
 ```
 
 ---
